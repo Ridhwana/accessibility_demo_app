@@ -1,0 +1,37 @@
+<div>Generic content containers are not focusable by default</div>
+<div tabindex="0">...but can be made focusable</div>
+<br>    
+<button class="button-md button-md-danger" tabindex="101">Tab index</button>
+<button class="button-md button-md-danger" tabindex="103">greater than 1 is NOT recommended</button>
+<button class="button-md button-md-danger" tabindex="102">as it is ignored by screen readers</button>
+<br><br>
+
+<!-- tabbing will go down the DOM tree -->
+<button class="button-md">This is</button>
+<button class="button-md">the correct</button>
+<button class="button-md">tab order</button>
+<br><br>
+
+<!-- make sure that styling don't compromise tabbing -->
+<button style="float: right" class="button-md button-outline-md-danger">This order</button>
+<button class="button-md button-outline-md-danger">is not what is</button>
+<button class="button-md button-outline-md-danger">expected</button>
+<br><br>
+
+<!-- some items and images you might not want to be tab focusable -->
+<button type="button" onclick="alert('focussed!')" id="foo" tabindex="-1" class="button-md button-outline-md"> press spacebar...*</button>
+<button type="button" onclick="document.getElementById('foo').focus();" class="button-md button-outline-md">*...after clicking this button</button>
+<br><br>
+<custom-button tabindex="0" role="button" class="button button-md">Press Tab to Focus Me!</custom-button>
+<br><br>
+<style>
+    .sr-only {
+        position:absolute;
+        left:-10000px;
+        top:auto;
+        width:1px;
+        height:1px;
+        overflow:hidden;
+    }
+</style>
+<h2 class="sr-only">This heading is offscreen.</h2>

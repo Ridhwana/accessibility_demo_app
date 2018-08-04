@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Language",
+        "information": "Add a language attribute on elements",
+        "snippetFile": "language.html"
+    },
+    {
+        "title": "Headings and Structure",
+        "information": "Use headings and landings",
+        "snippetFile": "headings.html"
+    },
+    {
+        "title": "Labels",
+        "information": "Labels for all required elements",
+        "snippetFile": "labels.html"
+    },
+    {
+        "title": "Alt Text",
+        "information": "Alternative text for images",
+        "snippetFile": "alttext.html"
+    },
+    {
+        "title": "Tabbing and Focus",
+        "information": "Using tabbing or assistive technology to interact with elements",
+        "snippetFile": "tabbing.html"
+    },
+    {
+        "title": "Custom Element",
+        "information": "An example of a custom element toggle button",
+        "snippetFile": "complex.html"
+    }
+]

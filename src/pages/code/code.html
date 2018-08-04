@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Code Snippets
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of snippetItems">
+      <button ion-item (click)="openSnippet(item)">
+        <h2>{{item.title}}</h2>
+        <p>{{item.information}}</p>
+        <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
+      </button>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

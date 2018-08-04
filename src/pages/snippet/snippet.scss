@@ -1,0 +1,22 @@
+page-snippet {
+    .custom-button {
+        display: inline-block;
+        line-height: 3.6rem;
+        cursor: pointer;
+    }
+
+    .custom-text-input {
+        width: calc(50% - 8px - 8px);
+        border: 1px solid lightgray;
+        height: 3rem;
+    }
+
+    custom-button {
+        line-height: 3.6rem;
+    }
+
+    img {
+        width: 30%;
+    }
+    
+}

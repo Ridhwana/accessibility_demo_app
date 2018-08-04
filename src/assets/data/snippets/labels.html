@@ -1,0 +1,18 @@
+<div class="custom-button button button-md">Has no label</div>
+<br>
+<div class="button button-md custom-button" role="button">Has a role</div>
+<br>
+<button type="button" class="button-md">Content is the label</button>
+<br>
+<label class="label label-md">
+    Descriptive label
+    <input type="text" class="text-input text-input-md custom-text-input"></input>
+</label>
+<br>
+<label for="noLabel" id="labelID">Separate label</label>
+<input id="noLabel" type="text" class="text-input text-input-md custom-text-input"></input>
+<br>
+<div aria-label="Descriptive label" class="custom-button button button-md">Has aria-label</div>
+<br>
+<!-- can have multiple IDs in labelledby -->
+<input type="text" aria-labelledby="labelID" class="text-input text-input-md custom-text-input">Is aria-labelledby</input>

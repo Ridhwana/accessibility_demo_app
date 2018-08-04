@@ -1,0 +1,33 @@
+[
+    {
+        "title": "A11y",
+        "url": "www.a11y.com",
+        "icon": "disabled"
+    },
+    {
+        "title": "arai",
+        "url": "www.aria.com",
+        "icon": "code"
+    },
+    {
+        "title": "Voice over example",
+        "url": "udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/",
+        "icon": "user"
+    },
+    {
+        "title": "Accessibility for Teams",
+        "url": "accessibility.digital.gov/",
+        "icon": "user"
+    },
+    {
+        "title": "Ebay MIND Patterns",
+        "url": "ebay.gitbooks.io/mindpatterns/content/",
+        "icon": "user"
+    },
+    {
+        "title": "Accessibility Object Model",
+        "url": "github.com/WICG/aom/blob/gh-pages/explainer.md",
+        "icon": "user"
+    }
+
+]
